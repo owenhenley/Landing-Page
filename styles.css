@@ -30,6 +30,19 @@
   margin: 0;
   padding: 0;
   display: flex;
+  gap: 12px;
+}
+
+.header-middle {
+  display: flex;
+}
+
+.header > img {
+  max-width: 200px;
+}
+
+.header > button {
+  width: 80px;
 }
 
 .section-two {
