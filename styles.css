@@ -5,6 +5,31 @@
 .header {
   background-color: #1f2937;
   color: #ffffff;
+  display: flex;
+  flex: 1;
+  padding: 20px 100px;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .section-two {
