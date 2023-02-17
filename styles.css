@@ -142,6 +142,20 @@ a {
 }
 
 .row-3 > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#quote-credit {
+    font-size: 20px;
+    font-weight: 400;
+    align-self: flex-end;
 }
 
 .row-4 > .container {
