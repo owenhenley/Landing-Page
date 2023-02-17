@@ -36,6 +36,11 @@ header {
     gap: 12px;
 }
 
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
 .header-row {
     margin: 0;
     padding: 100px 0;
